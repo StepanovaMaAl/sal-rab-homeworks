@@ -13,7 +13,7 @@ function calcShipping(sum, min, shipping) {
 else if (productsSum >= freeShippingMinSum) {
     console.log (shippingSum = 0)
 } // если productsSum Больше или равна freeShippingMinSum, // то shippingSum присвоить значение 0
-else if (productsSum > 0 &&productsSum < freeShippingMinSum) {// если productsSum больше 0 и меньше freeShippingMinSum,
+else if (productsSum > 0 && productsSum < freeShippingMinSum) {// если productsSum больше 0 и меньше freeShippingMinSum,
    console.log (shipping) // то shippingSum присвоить значение shippingPrice
 }
     // Конец решения задания №2.1.
