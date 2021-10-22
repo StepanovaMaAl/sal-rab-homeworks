@@ -1,9 +1,10 @@
 // Задание 4.1. Вывод карточек товаров
 
 function parseProducts(json) {
-    let data = function parseProducts(JSON)
+    let data = JSON.parse(json)
     let products = data.products
     return products
+}
     function renderProductsCards(json){
        let products = parseProducts(json) 
        clearProducts()
